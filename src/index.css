@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* biome-ignore lint/suspicious/noUnknownAtRules: false positive */
 @theme {
   --color-primary: #2563eb;
   --color-primary-hover: #2563eb;
@@ -9,7 +10,7 @@
   --color-tertiary-hover: #f59e0b;
 
   /* very light grey */
-  --color-forground: #f1f5f9;
+  --color-foreground: #f1f5f9;
   /* very dark grey */
   --color-background: #1e293b;
 }
